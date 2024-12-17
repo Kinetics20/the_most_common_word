@@ -40,3 +40,28 @@ text = "Home is where I feel safe, but the house I grew up in will always be hom
 result = most_common_word(text)
 print(result)  # Output: ('home', 2)
 ```
+
+## ✅ Tests
+
+The project includes unit tests written using `pytest` to validate the function’s behavior.  
+Run Tests:
+
+```bash
+pytest test_common_word.py -vv
+```
+### Test Results:
+
+```bash
+================================================================ test session starts =================================================================
+platform linux -- Python 3.12.3, pytest-8.3.4
+collected 6 items
+
+test_common_word.py::test_most_common_word_basic PASSED                                                                                        
+test_common_word.py::test_most_common_word_case_insensitivity PASSED                                                                           
+test_common_word.py::test_most_common_word_empty_text PASSED                                                                                   
+test_common_word.py::test_most_common_word_special_characters PASSED                                                                           
+test_common_word.py::test_most_common_word_tie PASSED                                                                                          
+test_common_word.py::test_most_common_word_single_word PASSED                                                                                  
+
+================================================================= 6 passed in 0.02s ================================================================
+```
