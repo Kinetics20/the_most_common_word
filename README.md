@@ -8,7 +8,6 @@ This project provides a Python function that identifies the most frequently occu
 - Handles **case insensitivity**, **special characters**, and edge cases like empty text or ties.
 - Fully tested with **pytest** and type-checked using **mypy**.
 
----
 
 ## 🔧 Installation
 
