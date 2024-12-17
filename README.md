@@ -66,3 +66,12 @@ test_common_word.py::test_most_common_word_single_word PASSED
 
 ================================================================= 6 passed in 0.02s ================================================================
 ```
+
+## 🧪 Type Checking
+
+Static typing was enforced with `mypy` for code clarity and safety.  
+Run mypy:
+
+```bash
+mypy common_word.py
+```
