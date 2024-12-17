@@ -20,3 +20,7 @@ def test_most_common_word_special_characters():
     assert most_common_word(
         "@ The sun rises in the east, # and when&@ the $sun is$ high in the sky, "
         "^I love to si$t outside_ an&d* feel the warmth^ of the sun =on my skin.") == ('the', 6)
+
+
+def test_most_common_word_tie():
+    assert most_common_word("Birds fly high, and fish swim deep while birds and fish explore nature.") == ('birds', 2)
