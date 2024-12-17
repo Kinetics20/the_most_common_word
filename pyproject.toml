@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "the-most-common-word"
+version = "0.1.0"
+description = ""
+authors = ["Kinetics20 <kinetics20@gmail.com>"]
+license = "Beerware"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+mypy = "^1.13.0"
+pytest = "8.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
