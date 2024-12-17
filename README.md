@@ -119,3 +119,13 @@ def most_common_word(txt: str) -> tuple[str, int]:
 - mypy for static type checking
 - `re` module for regular expressions
 - `collections.Counter` for word counting
+
+## 🎉 Results
+
+All tests passed successfully, confirming that the function works as expected across various scenarios.
+
+## 🧑‍💻 Author
+
+Kinetics20
+
+Feel free to contribute, submit issues, or ask questions! 😊
