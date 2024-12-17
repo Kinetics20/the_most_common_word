@@ -126,6 +126,6 @@ All tests passed successfully, confirming that the function works as expected ac
 
 ## 🧑‍💻 Author
 
-Kinetics20
+Piotr Lipiński
 
 Feel free to contribute, submit issues, or ask questions! 😊
