@@ -111,3 +111,11 @@ def most_common_word(txt: str) -> tuple[str, int]:
 | **Tie Between Words**   | "Birds fly high, and fish swim deep while birds and fish explore nature."                      | ('birds', 2)          |
 | **Single Word**         | "Home"                                                                                         | ('home', 1)           |
 
+## 💻 Technologies Used
+
+- Python (3.12.3)
+- Poetry for dependency management
+- pytest for unit testing
+- mypy for static type checking
+- `re` module for regular expressions
+- `collections.Counter` for word counting
