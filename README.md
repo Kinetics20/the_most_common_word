@@ -21,10 +21,12 @@ This project uses [Poetry](https://python-poetry.org/) for dependency management
 
 ## Install Dependencies
 
-To install the project's dependencies, use the following command:
+To install Poetry, Mypy and Pytest on Linux or macOS, use the following command:
 
 ```bash
-poetry install
+pipx install poetry
+poetry add mypy
+poetry add 'pytest==8.3.4'
 ```
 
 ## 🚀 Usage
