@@ -6,3 +6,4 @@ venv
 .venv
 .mypy-cache
 .pytest-cache
+.coverage
