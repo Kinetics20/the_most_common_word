@@ -100,3 +100,14 @@ def most_common_word(txt: str) -> tuple[str, int]:
     return word_counts.most_common(n=1)[0]
 ```
 
+## 📝 Test Cases
+
+| **Test Case**           | **Input**                                                                                     | **Expected Output**    |
+|-------------------------|-----------------------------------------------------------------------------------------------|------------------------|
+| **Basic Word Count**    | "Home is where I feel safe, but the house I grew up in will always be home to me."             | ('home', 2)            |
+| **Case Insensitivity**  | "In a small city... the City of Angels... city’s vibrant energy."                              | ('city', 3)            |
+| **Empty Text**          | ""                                                                                            | ('', 0)                |
+| **Special Characters**  | "@ The sun rises... $sun is$ high in the sky... feel the warmth^ of the sun..."               | ('the', 6)            |
+| **Tie Between Words**   | "Birds fly high, and fish swim deep while birds and fish explore nature."                      | ('birds', 2)          |
+| **Single Word**         | "Home"                                                                                         | ('home', 1)           |
+
