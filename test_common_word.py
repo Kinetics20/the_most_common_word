@@ -24,3 +24,7 @@ def test_most_common_word_special_characters():
 
 def test_most_common_word_tie():
     assert most_common_word("Birds fly high, and fish swim deep while birds and fish explore nature.") == ('birds', 2)
+
+
+def test_most_common_word_single_word():
+    assert most_common_word("Home") == ('home', 1)
