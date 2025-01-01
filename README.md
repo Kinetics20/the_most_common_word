@@ -1,4 +1,8 @@
 # 📚 The Most Common Word
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
+![PyCharm](https://img.shields.io/badge/PyCharm-2025.1-blue?logo=jetbrains&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-24.04.1_LTS-E95420?logo=ubuntu&logoColor=white)
+![Kali Linux](https://img.shields.io/badge/Kali_Linux-2025.1-557C99?logo=kali-linux&logoColor=white)
 
 This project provides a Python function that identifies the most frequently occurring word in a given text and returns its count. It includes tests to validate its functionality, ensuring reliability and robustness.
 
